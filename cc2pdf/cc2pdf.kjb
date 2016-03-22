@@ -11,54 +11,6 @@
   <modified_date>2016&#x2f;03&#x2f;14 00&#x3a;59&#x3a;53.539</modified_date>
     <parameters>
     </parameters>
-  <connection>
-    <name>slack-aws</name>
-    <server>slack.ckjstzy6gz0p.us-west-2.rds.amazonaws.com</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>slack</database>
-    <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 6c9baaeeb90e84a085e557e569e392f69b</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>slack-aws-stage</name>
-    <server>slack-stage.ckjstzy6gz0p.us-west-2.rds.amazonaws.com</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>slack_stage</database>
-    <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 6c9baaeeb90e84a085e557e569e392f69b</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
     <slaveservers>
     </slaveservers>
 <job-log-table><connection/>
@@ -98,8 +50,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>200</xloc>
-      <yloc>100</yloc>
+      <xloc>208</xloc>
+      <yloc>224</yloc>
       </entry>
     <entry>
       <name>Transformation</name>
@@ -107,7 +59,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C&#x3a;&#x5c;Users&#x5c;Efrem&#x5c;OneDrive&#x5c;cartacapital2pdf&#x5c;cartacapital2pdf.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;cartacapital2pdf.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -131,8 +83,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>420</xloc>
-      <yloc>100</yloc>
+      <xloc>432</xloc>
+      <yloc>224</yloc>
       </entry>
     <entry>
       <name>Shell</name>
@@ -149,13 +101,13 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>&#x22;C&#x3a;&#x5c;Program Files &#x28;x86&#x29;&#x5c;GnuWin32&#x5c;bin&#x5c;wget.exe&#x22; -i &#x22;C&#x3a;&#x5c;Users&#x5c;Efrem&#x5c;OneDrive&#x5c;cartacapital2pdf&#x5c;imagensParaDownload.csv&#x22; -P &#x22;C&#x3a;&#x5c;Users&#x5c;Efrem&#x5c;OneDrive&#x5c;cartacapital2pdf&#x5c;img&#x22;</script>
+      <script>wget  -i &#x22;&#x2f;home&#x2f;efrem&#x2f;Documents&#x2f;pdi-transformation&#x2f;cc2pdf&#x2f;imagensParaDownload.csv&#x22; -P &#x22;&#x2f;home&#x2f;efrem&#x2f;Documents&#x2f;pdi-transformation&#x2f;cc2pdf&#x2f;img&#x22;</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>540</xloc>
-      <yloc>100</yloc>
+      <xloc>544</xloc>
+      <yloc>224</yloc>
       </entry>
     <entry>
       <name>Shell 2</name>
@@ -172,13 +124,13 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>&#x22;C&#x3a;&#x5c;Program Files &#x28;x86&#x29;&#x5c;GnuWin32&#x5c;bin&#x5c;wget.exe&#x22; &#x22;http&#x3a;&#x2f;&#x2f;editoraconfianca.com.br&#x2f;acesso&#x2f;html5&#x2f;cc&#x2f;892&#x2f;data&#x2f;pages.xml&#x22; -P &#x22;C&#x3a;&#x5c;Users&#x5c;Efrem&#x5c;OneDrive&#x5c;cartacapital2pdf&#x22;</script>
+      <script>wget &#x22;http&#x3a;&#x2f;&#x2f;editoraconfianca.com.br&#x2f;acesso&#x2f;html5&#x2f;cc&#x2f;893&#x2f;data&#x2f;pages.xml&#x22; -P &#x22;&#x2f;home&#x2f;efrem&#x2f;Documents&#x2f;pdi-transformation&#x2f;cc2pdf&#x22;</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>300</xloc>
-      <yloc>100</yloc>
+      <xloc>304</xloc>
+      <yloc>224</yloc>
       </entry>
   </entries>
   <hops>
@@ -211,6 +163,27 @@
     </hop>
   </hops>
   <notepads>
+    <notepad>
+      <note>http&#x3a;&#x2f;&#x2f;editoraconfianca.com.br&#x2f;acesso&#x2f;html5&#x2f;cc&#x2f;893&#x2f;data&#x2f;pages.xml&#xa;&#xa;http&#x3a;&#x2f;&#x2f;www.convert-jpg-to-pdf.net&#x2f;</note>
+      <xloc>160</xloc>
+      <yloc>80</yloc>
+      <width>479</width>
+      <heigth>61</heigth>
+      <fontname>Ubuntu</fontname>
+      <fontsize>11</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
   </notepads>
 
 </job>
