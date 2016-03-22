@@ -410,7 +410,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>YOUR-TAG-HERE</nullif>
+        <nullif>YOUR-TAG</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
@@ -434,7 +434,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>YOUR-KEY-HERE</nullif>
+        <nullif>YOUR-KEY</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
