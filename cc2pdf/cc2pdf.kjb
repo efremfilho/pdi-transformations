@@ -50,8 +50,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>208</xloc>
-      <yloc>224</yloc>
+      <xloc>96</xloc>
+      <yloc>336</yloc>
       </entry>
     <entry>
       <name>Transformation</name>
@@ -83,8 +83,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>432</xloc>
-      <yloc>224</yloc>
+      <xloc>528</xloc>
+      <yloc>336</yloc>
       </entry>
     <entry>
       <name>Shell</name>
@@ -106,8 +106,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>544</xloc>
-      <yloc>224</yloc>
+      <xloc>640</xloc>
+      <yloc>336</yloc>
       </entry>
     <entry>
       <name>Shell 2</name>
@@ -124,13 +124,34 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>wget &#x22;http&#x3a;&#x2f;&#x2f;editoraconfianca.com.br&#x2f;acesso&#x2f;html5&#x2f;cc&#x2f;893&#x2f;data&#x2f;pages.xml&#x22; -P &#x22;&#x2f;home&#x2f;efrem&#x2f;Documents&#x2f;pdi-transformation&#x2f;cc2pdf&#x22;</script>
+      <script>wget &#x22;http&#x3a;&#x2f;&#x2f;editoraconfianca.com.br&#x2f;acesso&#x2f;html5&#x2f;cc&#x2f;894&#x2f;data&#x2f;pages.xml&#x3f;rand&#x3d;6857&#x22; -P &#x22;&#x2f;home&#x2f;efrem&#x2f;Documents&#x2f;pdi-transformations&#x2f;cc2pdf&#x22;</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>304</xloc>
-      <yloc>224</yloc>
+      <xloc>272</xloc>
+      <yloc>192</yloc>
+      </entry>
+    <entry>
+      <name>File Exists</name>
+      <description/>
+      <type>FILE_EXISTS</type>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;pages.xml&#x3f;rand&#x3d;6857</filename>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>272</xloc>
+      <yloc>336</yloc>
+      </entry>
+    <entry>
+      <name>Success</name>
+      <description/>
+      <type>SUCCESS</type>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>832</xloc>
+      <yloc>336</yloc>
       </entry>
   </entries>
   <hops>
@@ -144,15 +165,6 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>START</from>
-      <to>Shell 2</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>Y</unconditional>
-    </hop>
-    <hop>
       <from>Shell 2</from>
       <to>Transformation</to>
       <from_nr>0</from_nr>
@@ -161,13 +173,49 @@
       <evaluation>Y</evaluation>
       <unconditional>Y</unconditional>
     </hop>
+    <hop>
+      <from>Shell</from>
+      <to>Success</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>START</from>
+      <to>File Exists</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>File Exists</from>
+      <to>Shell 2</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>File Exists</from>
+      <to>Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
   </hops>
   <notepads>
     <notepad>
-      <note>http&#x3a;&#x2f;&#x2f;editoraconfianca.com.br&#x2f;acesso&#x2f;html5&#x2f;cc&#x2f;893&#x2f;data&#x2f;pages.xml&#xa;&#xa;http&#x3a;&#x2f;&#x2f;www.convert-jpg-to-pdf.net&#x2f;</note>
-      <xloc>160</xloc>
-      <yloc>80</yloc>
-      <width>479</width>
+      <note>http&#x3a;&#x2f;&#x2f;editoraconfianca.com.br&#x2f;acesso&#x2f;html5&#x2f;cc&#x2f;894&#x2f;data&#x2f;pages.xml&#x3f;rand&#x3d;6857&#xa;&#xa;http&#x3a;&#x2f;&#x2f;www.convert-jpg-to-pdf.net&#x2f;</note>
+      <xloc>144</xloc>
+      <yloc>64</yloc>
+      <width>556</width>
       <heigth>61</heigth>
       <fontname>Ubuntu</fontname>
       <fontsize>11</fontsize>
