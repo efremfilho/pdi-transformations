@@ -1,0 +1,76 @@
+id,name,num,img,type,height,weight,candy,egg,stage,max_cp
+2,Ivysaur,2,http://www.serebii.net/pokemongo/pokemon/002.png,Grass / Poison,0.99 m,13.0 kg,100,Not in Eggs,2,1632
+4,Charmander,4,http://www.serebii.net/pokemongo/pokemon/004.png,Fire,0.61 m,8.5 kg,25,2 km,1,955
+6,Charizard,6,http://www.serebii.net/pokemongo/pokemon/006.png,Fire / Flying,1.70 m,90.5 kg,0,Not in Eggs,3,2602
+8,Wartortle,8,http://www.serebii.net/pokemongo/pokemon/008.png,Water,0.99 m,22.5 kg,100,Not in Eggs,2,1582
+10,Caterpie,10,http://www.serebii.net/pokemongo/pokemon/010.png,Bug,0.30 m,2.9 kg,12,2 km,1,443
+12,Butterfree,12,http://www.serebii.net/pokemongo/pokemon/012.png,Bug / Flying,1.09 m,32.0 kg,0,Not in Eggs,3,1454
+14,Kakuna,14,http://www.serebii.net/pokemongo/pokemon/014.png,Bug / Poison,0.61 m,10.0 kg,50,Not in Eggs,2,485
+16,Pidgey,16,http://www.serebii.net/pokemongo/pokemon/016.png,Normal / Flying,0.30 m,1.8 kg,12,2 km,1,679
+18,Pidgeot,18,http://www.serebii.net/pokemongo/pokemon/018.png,Normal / Flying,1.50 m,39.5 kg,0,Not in Eggs,3,2091
+20,Raticate,20,http://www.serebii.net/pokemongo/pokemon/020.png,Normal,0.71 m,18.5 kg,0,Not in Eggs,2,1444
+22,Fearow,22,http://www.serebii.net/pokemongo/pokemon/022.png,Normal / Flying,1.19 m,38.0 kg,0,Not in Eggs,2,1746
+24,Arbok,24,http://www.serebii.net/pokemongo/pokemon/024.png,Poison,3.51 m,65.0 kg,0,Not in Eggs,2,1767
+26,Raichu,26,http://www.serebii.net/pokemongo/pokemon/026.png,Electric,0.79 m,30.0 kg,0,Not in Eggs,2,2028
+28,Sandslash,28,http://www.serebii.net/pokemongo/pokemon/028.png,Ground,0.99 m,29.5 kg,0,Not in Eggs,2,1810
+30,Nidorina,30,http://www.serebii.net/pokemongo/pokemon/030.png,Poison,0.79 m,20.0 kg,100,Not in Eggs,2,1404
+32,Nidoran ♂,32,http://www.serebii.net/pokemongo/pokemon/032.png,Poison,0.51 m,9.0 kg,25,5 km,1,843
+34,Nidoking,34,http://www.serebii.net/pokemongo/pokemon/034.png,Poison / Ground,1.40 m,62.0 kg,0,Not in Eggs,3,2475
+36,Clefable,36,http://www.serebii.net/pokemongo/pokemon/036.png,Normal,1.30 m,40.0 kg,0,Not in Eggs,2,2397
+38,Ninetales,38,http://www.serebii.net/pokemongo/pokemon/038.png,Fire,1.09 m,19.9 kg,0,Not in Eggs,2,2188
+40,Wigglytuff,40,http://www.serebii.net/pokemongo/pokemon/040.png,Normal,0.99 m,12.0 kg,0,Not in Eggs,2,2177
+42,Golbat,42,http://www.serebii.net/pokemongo/pokemon/042.png,Poison / Flying,1.60 m,55.0 kg,0,Not in Eggs,2,1921
+44,Gloom,44,http://www.serebii.net/pokemongo/pokemon/044.png,Grass / Poison,0.79 m,8.6 kg,100,Not in Eggs,2,1689
+46,Paras,46,http://www.serebii.net/pokemongo/pokemon/046.png,Bug / Grass,0.30 m,5.4 kg,50,5 km,1,916
+48,Venonat,48,http://www.serebii.net/pokemongo/pokemon/048.png,Bug / Poison,0.99 m,30.0 kg,50,5 km,1,1029
+50,Diglett,50,http://www.serebii.net/pokemongo/pokemon/050.png,Ground,0.20 m,0.8 kg,50,5 km,1,456
+52,Meowth,52,http://www.serebii.net/pokemongo/pokemon/052.png,Normal,0.41 m,4.2 kg,50,5 km,1,756
+54,Psyduck,54,http://www.serebii.net/pokemongo/pokemon/054.png,Water,0.79 m,19.6 kg,50,5 km,1,1109
+56,Mankey,56,http://www.serebii.net/pokemongo/pokemon/056.png,Fighting,0.51 m,28.0 kg,50,5 km,1,878
+58,Growlithe,58,http://www.serebii.net/pokemongo/pokemon/058.png,Fire,0.71 m,19.0 kg,50,5 km,1,1335
+60,Poliwag,60,http://www.serebii.net/pokemongo/pokemon/060.png,Water,0.61 m,12.4 kg,25,5 km,1,795
+62,Poliwrath,62,http://www.serebii.net/pokemongo/pokemon/062.png,Water / Fighting,1.30 m,54.0 kg,0,Not in Eggs,3,2505
+64,Kadabra,64,http://www.serebii.net/pokemongo/pokemon/064.png,Psychic,1.30 m,56.5 kg,100,Not in Eggs,2,1131
+66,Machop,66,http://www.serebii.net/pokemongo/pokemon/066.png,Fighting,0.79 m,19.5 kg,25,5 km,1,1089
+68,Machamp,68,http://www.serebii.net/pokemongo/pokemon/068.png,Fighting,1.60 m,130.0 kg,0,Not in Eggs,3,2594
+70,Weepinbell,70,http://www.serebii.net/pokemongo/pokemon/070.png,Grass / Poison,0.99 m,6.4 kg,100,Not in Eggs,2,1723
+72,Tentacool,72,http://www.serebii.net/pokemongo/pokemon/072.png,Water / Poison,0.89 m,45.5 kg,50,5 km,1,905
+74,Geodude,74,http://www.serebii.net/pokemongo/pokemon/074.png,Rock / Ground,0.41 m,20.0 kg,25,2 km,1,849
+76,Golem,76,http://www.serebii.net/pokemongo/pokemon/076.png,Rock / Ground,1.40 m,300.0 kg,0,Not in Eggs,3,2303
+78,Rapidash,78,http://www.serebii.net/pokemongo/pokemon/078.png,Fire,1.70 m,95.0 kg,0,Not in Eggs,2,2199
+80,Slowbro,80,http://www.serebii.net/pokemongo/pokemon/080.png,Water / Psychic,1.60 m,78.5 kg,0,Not in Eggs,2,2597
+82,Magneton,82,http://www.serebii.net/pokemongo/pokemon/082.png,Electric,0.99 m,60.0 kg,0,Not in Eggs,2,1879
+84,Doduo,84,http://www.serebii.net/pokemongo/pokemon/084.png,Normal / Flying,1.40 m,39.2 kg,50,5 km,1,855
+86,Seel,86,http://www.serebii.net/pokemongo/pokemon/086.png,Water,1.09 m,90.0 kg,50,5 km,1,1107
+88,Grimer,88,http://www.serebii.net/pokemongo/pokemon/088.png,Poison,0.89 m,30.0 kg,50,5 km,1,1284
+90,Shellder,90,http://www.serebii.net/pokemongo/pokemon/090.png,Water,0.30 m,4.0 kg,50,5 km,1,822
+92,Gastly,92,http://www.serebii.net/pokemongo/pokemon/092.png,Ghost / Poison,1.30 m,0.1 kg,25,5 km,1,804
+94,Gengar,94,http://www.serebii.net/pokemongo/pokemon/094.png,Ghost / Poison,1.50 m,40.5 kg,0,Not in Eggs,3,2078
+96,Drowzee,96,http://www.serebii.net/pokemongo/pokemon/096.png,Psychic,0.99 m,32.4 kg,50,5 km,1,1075
+98,Krabby,98,http://www.serebii.net/pokemongo/pokemon/098.png,Water,0.41 m,6.5 kg,50,5 km,1,792
+100,Voltorb,100,http://www.serebii.net/pokemongo/pokemon/100.png,Electric,0.51 m,10.4 kg,50,5 km,1,839
+102,Exeggcute,102,http://www.serebii.net/pokemongo/pokemon/102.png,Grass / Psychic,0.41 m,2.5 kg,50,5 km,1,1099
+104,Cubone,104,http://www.serebii.net/pokemongo/pokemon/104.png,Ground,0.41 m,6.5 kg,50,5 km,1,1006
+106,Hitmonlee,106,http://www.serebii.net/pokemongo/pokemon/106.png,Fighting,1.50 m,49.8 kg,0,10 km,1,1492
+108,Lickitung,108,http://www.serebii.net/pokemongo/pokemon/108.png,Normal,1.19 m,65.5 kg,0,5 km,1,1626
+110,Weezing,110,http://www.serebii.net/pokemongo/pokemon/110.png,Poison,1.19 m,9.5 kg,0,Not in Eggs,2,2250
+112,Rhydon,112,http://www.serebii.net/pokemongo/pokemon/112.png,Ground / Rock,1.91 m,120.0 kg,0,Not in Eggs,2,2243
+114,Tangela,114,http://www.serebii.net/pokemongo/pokemon/114.png,Grass,0.99 m,35.0 kg,0,5 km,1,1739
+116,Horsea,116,http://www.serebii.net/pokemongo/pokemon/116.png,Water,0.41 m,8.0 kg,50,5 km,1,794
+118,Goldeen,118,http://www.serebii.net/pokemongo/pokemon/118.png,Water,0.61 m,15.0 kg,50,5 km,1,965
+120,Staryu,120,http://www.serebii.net/pokemongo/pokemon/120.png,Water,0.79 m,34.5 kg,50,5 km,1,937
+122,Mr. Mime,122,http://www.serebii.net/pokemongo/pokemon/122.png,Psychic,1.30 m,54.5 kg,0,10 km,1,1494
+124,Jynx,124,http://www.serebii.net/pokemongo/pokemon/124.png,Ice / Psychic,1.40 m,40.6 kg,0,10 km,1,1716
+126,Magmar,126,http://www.serebii.net/pokemongo/pokemon/126.png,Fire,1.30 m,44.5 kg,0,10 km,1,2265
+128,Tauros,128,http://www.serebii.net/pokemongo/pokemon/128.png,Normal,1.40 m,88.4 kg,0,5 km,1,1844
+130,Gyarados,130,http://www.serebii.net/pokemongo/pokemon/130.png,Water / Flying,6.50 m,235.0 kg,0,Not in Eggs,2,2688
+132,Ditto,132,http://www.serebii.net/pokemongo/pokemon/132.png,Normal,0.30 m,4.0 kg,0,Not in Eggs,1,919
+134,Vaporeon,134,http://www.serebii.net/pokemongo/pokemon/134.png,Water,0.99 m,29.0 kg,0,Not in Eggs,2,2816
+136,Flareon,136,http://www.serebii.net/pokemongo/pokemon/136.png,Fire,0.89 m,25.0 kg,0,Not in Eggs,2,2643
+138,Omanyte,138,http://www.serebii.net/pokemongo/pokemon/138.png,Rock / Water,0.41 m,7.5 kg,50,10 km,1,1119
+140,Kabuto,140,http://www.serebii.net/pokemongo/pokemon/140.png,Rock / Water,0.51 m,11.5 kg,50,10 km,1,1104
+142,Aerodactyl,142,http://www.serebii.net/pokemongo/pokemon/142.png,Rock / Flying,1.80 m,59.0 kg,0,10 km,1,2165
+144,Articuno,144,http://www.serebii.net/pokemongo/pokemon/144.png,Ice / Flying,1.70 m,55.4 kg,0,Not in Eggs,1,2978
+146,Moltres,146,http://www.serebii.net/pokemongo/pokemon/146.png,Fire / Flying,2.01 m,60.0 kg,0,Not in Eggs,1,3240
+148,Dragonair,148,http://www.serebii.net/pokemongo/pokemon/148.png,Dragon,3.99 m,16.5 kg,100,Not in Eggs,2,1747
+150,Mewtwo,150,http://www.serebii.net/pokemongo/pokemon/150.png,Psychic,2.01 m,122.0 kg,0,Not in Eggs,1,4144
