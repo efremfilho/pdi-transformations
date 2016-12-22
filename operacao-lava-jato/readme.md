@@ -1,0 +1,1 @@
+Palavras atualmente usadas na busca - operacao-lava-jato|odebrecht|braskem|petrobras|delacoes|delacao|cunha|lula
